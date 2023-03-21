@@ -17,17 +17,28 @@ public class POMTestcases {
 		options.addArguments("--remote-allow-origins=*"); 
 		
 		driver=new ChromeDriver(options);   
-		driver.get("https://www.saucedemo.com/");  
+		driver.get("https://www.saucedemo.com/");   
 
 	}
 	
 	
 	@Test
-	public void TestLogin() {
+	public void TestLogin() throws Exception {
 		POMWebElements pom=new POMWebElements(driver);
 		pom.enterusername("standard_user");
 		pom.enterpassword("secret_sauce");
-		pom.clicklogin(); 
+		pom.clicklogin();   
+		
+		//Logout in the Homepage
+		HomepageWebElements pomlogout=new HomepageWebElements(driver); 
+		pomlogout.selectdropdown();
+		Thread.sleep(2000); 
+		pomlogout.clicklogout(); 
+		Thread.sleep(2000); 
+
+		
+		//Login button verify after logout functionality
+		pomlogout.verifyloginbutton(); 
 		
 		
 	}
