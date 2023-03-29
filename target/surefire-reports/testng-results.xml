@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-29T23:49:27 IST" name="Suite" finished-at="2023-03-29T23:49:54 IST" duration-ms="27157">
+    <groups>
+    </groups>
+    <test started-at="2023-03-29T23:49:27 IST" name="Test" finished-at="2023-03-29T23:49:54 IST" duration-ms="27157">
+      <class name="POM.POMTestcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:27 IST" name="setup" finished-at="2023-03-29T23:49:36 IST" duration-ms="8795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogin()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:36 IST" name="TestLogin" finished-at="2023-03-29T23:49:53 IST" duration-ms="17318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:53 IST" name="teardown" finished-at="2023-03-29T23:49:54 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- POM.POMTestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

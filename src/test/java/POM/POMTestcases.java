@@ -24,6 +24,7 @@ public class POMTestcases {
 	
 	@Test
 	public void TestLogin() throws Exception {
+		//Login with valid username and password
 		POMWebElements pom=new POMWebElements(driver);
 		pom.enterusername("standard_user");
 		pom.enterpassword("secret_sauce");
@@ -32,14 +33,15 @@ public class POMTestcases {
 		//Logout in the Homepage
 		HomepageWebElements pomlogout=new HomepageWebElements(driver); 
 		pomlogout.selectdropdown();
-		Thread.sleep(2000); 
+		Thread.sleep(5000); 
 		pomlogout.clicklogout(); 
-		Thread.sleep(2000); 
+		Thread.sleep(5000); 
 
 		
 		//Login button verify after logout functionality
 		pomlogout.verifyloginbutton(); 
-		
+		Thread.sleep(5000); 
+
 		
 	}
 	
