@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T23:49:27 IST" name="Suite" finished-at="2023-03-29T23:49:54 IST" duration-ms="27157">
+  <suite started-at="2023-04-09T22:09:20 IST" name="Suite" finished-at="2023-04-09T22:10:32 IST" duration-ms="72721">
     <groups>
     </groups>
-    <test started-at="2023-03-29T23:49:27 IST" name="Test" finished-at="2023-03-29T23:49:54 IST" duration-ms="27157">
+    <test started-at="2023-04-09T22:09:20 IST" name="Test" finished-at="2023-04-09T22:10:32 IST" duration-ms="72721">
       <class name="POM.POMTestcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:27 IST" name="setup" finished-at="2023-03-29T23:49:36 IST" duration-ms="8795" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-04-09T22:09:20 IST" name="setup" finished-at="2023-04-09T22:10:01 IST" duration-ms="41188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestLogin()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:36 IST" name="TestLogin" finished-at="2023-03-29T23:49:53 IST" duration-ms="17318" status="PASS">
+        <test-method signature="TestLogin()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-04-09T22:10:01 IST" name="TestLogin" finished-at="2023-04-09T22:10:21 IST" duration-ms="20198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-03-29T23:49:53 IST" name="teardown" finished-at="2023-03-29T23:49:54 IST" duration-ms="904" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:POM.POMTestcases@635eaaf1]" started-at="2023-04-09T22:10:21 IST" name="teardown" finished-at="2023-04-09T22:10:32 IST" duration-ms="11014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

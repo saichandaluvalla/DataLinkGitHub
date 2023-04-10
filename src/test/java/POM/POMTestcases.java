@@ -16,7 +16,7 @@ public class POMTestcases {
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*"); 
 		
-		driver=new ChromeDriver(options);   
+		driver=new ChromeDriver(options);    
 		driver.get("https://www.saucedemo.com/");   
 
 	}
@@ -27,14 +27,14 @@ public class POMTestcases {
 		//Login with valid username and password
 		POMWebElements pom=new POMWebElements(driver);
 		pom.enterusername("standard_user");
-		pom.enterpassword("secret_sauce");
+		pom.enterpassword("secret_sauce");  
 		pom.clicklogin();   
 		
 		//Logout in the Homepage
 		HomepageWebElements pomlogout=new HomepageWebElements(driver); 
 		pomlogout.selectdropdown();
 		Thread.sleep(5000); 
-		pomlogout.clicklogout(); 
+		pomlogout.clicklogout();  
 		Thread.sleep(5000); 
 
 		
@@ -42,11 +42,13 @@ public class POMTestcases {
 		pomlogout.verifyloginbutton(); 
 		Thread.sleep(5000); 
 
-		
-	}
+		 
+	} 
 	
 	@AfterMethod
-	public void teardown() {
+	public void teardown() throws InterruptedException {
+		Thread.sleep(5000); 
+
 		driver.quit(); 
 	}
 
