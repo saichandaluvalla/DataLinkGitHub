@@ -27,7 +27,7 @@ public class POMTestcases {
 		//Login with valid username and password
 		POMWebElements pom=new POMWebElements(driver);
 		pom.enterusername("standard_user");
-		pom.enterpassword("secret_sauc");  
+		pom.enterpassword("secret_sauce");  
 		pom.clicklogin();   
 		  
 		//Logout in the Homepage
