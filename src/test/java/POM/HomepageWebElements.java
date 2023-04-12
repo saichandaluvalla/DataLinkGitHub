@@ -28,7 +28,7 @@ public class HomepageWebElements {
 	public void selectdropdown() {
 		driver.findElement(Dropdown).click(); 
 	}
-	
+	 
 	public void clicklogout() {
 		driver.findElement(Logout).click(); 
 	}
@@ -36,7 +36,7 @@ public class HomepageWebElements {
 	public void verifyloginbutton() {
 		Boolean loginvisible=driver.findElement(Loginverify).isDisplayed(); 
 		
-		if(loginvisible == true) {
+		if(loginvisible == true) {  
 			System.out.println("Logout of the application is completed");
 		}
 		else {
